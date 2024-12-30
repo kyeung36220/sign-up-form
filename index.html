@@ -33,7 +33,27 @@
         <div class="signUpBody">
             <div class="signUpHeader">Let's do this!</div>
             <form class="forms">
+                <div class="column">
+                    <div class="entry"><label for="firstName">FIRST NAME</label></div>
+                    <input type="text" id="firstName" name="firstName" required>
 
+                    <div class="entry"><label for="email">EMAIL</label></div>
+                    <input type="email" id="email" name="email" required>
+
+                    <div class="entry"><label for="password">PASSWORD</label></div>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="column">
+
+                    <div class="entry"><label for="lastName">LAST NAME</label></div>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <div class="entry"><label for="phoneNumber">PHONE NUMBER</label></div>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+                    <div class="entry"><label for="passwordConfirmation">CONFIRM PASSWORD</label></div>
+                    <input type="password" id="passwordConfirmation" name="passwordConfirmation" required>
+                </div>
             </form>
         </div>
         <button>Create Account</button>
